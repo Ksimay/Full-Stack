@@ -1,0 +1,18 @@
+#prg3{
+    background-color: orchid;
+}
+
+.class1{
+    background-color: greenyellow;
+}
+
+#p3{
+    background-color: aqua;
+    border-style:solid;
+    border width: 5px;
+    border-color: blue;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+
+}
