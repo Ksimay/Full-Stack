@@ -1,0 +1,78 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+.container{
+    /* border: 2px solid red; */
+    background-color: grey;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.heading{
+    font-family: 'Lobster', cursive;
+}
+
+ #title{
+    font-size: 90px;
+    text-align: center;
+ }
+
+ #span1{
+    color: red;
+ }
+
+ #img-div{
+    /* border: 2px solid   red; */
+    text-align: center;
+ }
+
+ #img{
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px red;
+ }
+
+ #info{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-size: 1.5rem;
+ }
+
+ #title-list{
+    color: red;
+    margin-left: 10%;
+ }
+
+ ul{
+    width: 80%;
+    margin: auto;
+ }
+
+ li{
+    font-size: 24px;
+    line-height: 3rem;
+}
+
+#footer{
+    /* border: 2px solid   red; */
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+    border: 2px solid   darkorange;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#link:hover{
+    background-color: gray;
+    color: aqua;
+}
