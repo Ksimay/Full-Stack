@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+a{
+    color:red;
+    }
+
+.container{
+    background-color: aliceblue;
+}
+
+
+
+nav{
+    /* border: 3px solid   red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.logo{
+    margin: 1rem;
+}
+
+/* .companyname{
+    text-align: center;
+    margin:1rem;
+    border: 2px solid red;
+} */
+
+
+
+
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menulist{
+    color: black;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.menulist:hover{
+    color: blue;
+    background-color: rgb(200, 220, 240);
+}
+
+.trybutton{
+    color:blue;
+    text-decoration: none;
+    background-color:rgb(200, 220, 240);
+    padding: 0.5rem;
+    border: 3px solid blue;
+    border-radius:10px;
+    margin-right: 10px;
+}
+
+.pagebody{
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    margin-left: 300px;
+    padding: 100px;
+}
+
+#title{
+    font-size: 250%;
+}
+
+#info{
+    font-size: 120%;
+}
+
+#button{
+
+    color:white;
+    text-decoration: none;
+    background-color:blue;
+    border: 3px solid rgb(200, 220, 240);
+    border-radius:10px;
+    font-size: larger;
+    padding: 1rem;
+
+    
+
+
+}
